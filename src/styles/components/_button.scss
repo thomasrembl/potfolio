@@ -1,0 +1,28 @@
+
+
+.default{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: $s-border-radius;
+    gap: 5px;
+    font-size: $base;
+    cursor: pointer;
+}
+.primary{
+    background-color: rgba($cod-gray-500, 0.5);
+}
+.primary:hover{
+    background-color: $cod-gray-500;
+}
+.ghost{
+    background-color: transparent;
+
+}
+.ghost:hover{
+    svg{
+        translate: 10px;
+    }
+
+}

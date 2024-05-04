@@ -1,0 +1,93 @@
+.card{
+    max-width: 1260px;
+    position: relative;
+    max-height: 725px;
+    aspect-ratio: 253/145;
+    background-color: $white-950;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: $xl-2-border-radius;
+    border: solid 1px $white;
+    cursor: pointer;
+
+
+    .elipse{
+        position: absolute;
+        top: -650px;
+        left: -650px;
+        filter: grayscale(100%);
+
+    }
+    .content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        padding: 5.5% 7% 0px 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .img-container{
+            width: 100%;
+            border-top-left-radius: $l-border-radius;
+            border-top-right-radius: $l-border-radius;
+            max-height: 645px;
+            aspect-ratio: 72/43;
+            background-color: grey;
+            transform: translateY(27%);
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            
+
+        }
+        .top-content{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .project-title{
+
+                filter:drop-shadow($white 0 0 15px);
+            }
+            .project-info{
+                display: flex;
+                gap: 10px;
+
+                    font-weight: $bold;
+                    color: $white;
+
+                .description{
+                    color: $white-300;
+                    font-weight: $light;
+                }
+            }
+        }
+    }
+
+} 
+.card:hover{
+    .elipse{
+        top: -480px;
+        filter: grayscale(0%);
+
+    }
+    .img-container{
+
+        transform: translateY(17%);
+
+    }
+}
+
+@media screen and (max-width: 780px){
+    .card{
+        aspect-ratio: 171/173;
+        border-radius: $xl-border-radius;
+    }
+    .img-container{
+        transform: translateY(0px)!important;
+    }
+}

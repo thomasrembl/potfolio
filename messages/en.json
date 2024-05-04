@@ -1,0 +1,64 @@
+{
+    "Index": {
+      "title": "Discover"
+    },
+    "Footer":{
+      "title": "2024 Thomas Remblier. All right reserved.",
+      "pied":"Last Update : XX/XX/XXXX ",
+      "CV" : "My CV"
+      
+    },
+    "Header":{
+      "text":"Languages"
+    },
+    "About": {
+      "btn": "Return",
+      "ltTitle": "Who am I ?",
+      "title": "Want to get to know me ?",
+      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
+      "reseau": "My social networks",
+      "boite": "My toolbox",
+      "title2": "My experience"
+    },
+    "job1": {
+      "title": "SCJ Informatique",
+      "date": "sept. 2023 - now",
+      "poste": "Web Designer alternate",
+      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+      "id":"left"
+    },
+    "job2": {
+      "title": "MS Conseil Normandie",
+      "date": "avr. 2023 - juil. 2023",
+      "poste": "Communication officer in internship",
+      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+      "id":"right"
+    },
+    "job3": {
+      "title": "E.Leclerc",
+      "date": "avr. 2023 - juin 2023",
+      "poste": "Order picker",
+      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+      "id":"left"
+    },
+    "projectBase":{
+      "informationTitle": "Informations",
+      "descriptionTitle": "Description",
+      "imageTitle": "More Pricture",
+      "linkTitle": "Links"
+    },
+    "projet1": {
+      "title": "Développeur Web",
+      "main": "Corporation 2023",
+      "description": "Know more",
+      "informationText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet ",
+      "descriptionText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet "
+    },
+    "projet2": {
+      "title": "Développeur Web",
+      "main": "Personnal 2024",
+      "description": "Know more",
+      "informationText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet ",
+      "descriptionText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet "
+    }
+  }

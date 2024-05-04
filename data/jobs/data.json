@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "jobData": "job1",
+        "imgCover": "scj.png"
+    },
+    {
+        "id": 2,
+        "jobData": "job2",
+        "imgCover": "ms.png"
+    },
+    {
+        "id": 3,
+        "jobData": "job3",
+        "imgCover": "leclerc.png"
+    }
+  ]

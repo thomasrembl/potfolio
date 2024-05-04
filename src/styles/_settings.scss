@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $title-font;
+    color: $white;
+}
+
+p, a, span, li, input, textarea, button{
+    font-family: $base-font;
+    color: $white;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: $black;
+    position: relative;
+}
+
+svg{
+    display: flex;
+}
+
+#h1{
+    font-size: $xl-6;
+} 
+
+#h2{
+    font-size: $xl-4;
+}
+
+#h3{
+    font-size: $lg;
+}
+
+#bt{
+    font-size: $xl;
+}
+
+#p{
+    font-size: $base;
+}
+#xs{
+    font-size: $sm;
+
+}
+#drop-lt{
+    filter: drop-shadow(0 0 10px $white) drop-shadow(0 0 30px $white) ;
+}
+.lt-title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    .circle{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: $white;
+    }
+}
+
+@media screen and (max-width: 780px){
+    #bt{
+        font-size: $sm;
+    }
+    #h1{
+        font-size: $xl-2;
+    }
+    #h2{
+        font-size: $xl;
+    }
+    #base{
+        font-size: $sm;
+    }
+
+}
