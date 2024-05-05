@@ -1,4 +1,8 @@
 {
+    "meta":{
+      "description":"Welcome on my portfolio, I'm Thomas Remblier, a web designer and developer. Here you can find my projects, my experiences and my skills.",
+      "ogDescription":" Welcome on my portfolio, I'm Thomas Remblier. Here you can find my projects."
+    },
     "Index": {
       "title": "Discover"
     },

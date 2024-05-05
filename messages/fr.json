@@ -1,4 +1,8 @@
 {
+    "meta":{
+      "description":"Bienvenue sur le portfolio de Thomas remblier, je suis web designer développeur web et je fais de la 3D. Découvrez mes projets et mon parcours.",
+      "ogDescription":"Bienvenue sur le portfolio de Thomas remblier, découvrez mes projets et mon parcours."
+    },
     "Index": {
       "title": "Découvrir"
     },
