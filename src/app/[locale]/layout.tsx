@@ -4,7 +4,7 @@ import SmoothScrolling from "@/components/smoothScoll";
 import "@/styles/index.scss";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useTranslations } from "next-intl";
-import { use } from "react";
+import { Analytics } from "@vercel/analytics/react";
 export default function LocaleLayout({
   children,
   params: { locale },
@@ -60,6 +60,7 @@ export default function LocaleLayout({
       <body>
         <SmoothScrolling>{children}</SmoothScrolling>
         <SpeedInsights />
+        <Analytics />
         <Footer />
       </body>
     </html>
