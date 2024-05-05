@@ -2,6 +2,7 @@
 import Footer from "@/components/footer";
 import SmoothScrolling from "@/components/smoothScoll";
 import "@/styles/index.scss";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 export default function LocaleLayout({
   children,
   params: { locale },
@@ -13,6 +14,7 @@ export default function LocaleLayout({
     <html lang={locale}>
       <body>
         <SmoothScrolling>{children}</SmoothScrolling>
+        <SpeedInsights />
         <Footer />
       </body>
     </html>
