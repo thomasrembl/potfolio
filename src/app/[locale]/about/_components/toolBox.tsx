@@ -99,7 +99,7 @@ const ToolBox = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 200,
-    autoplayspeed: 200,
+    autoplayspeed: 10,
     responsive: [
       {
         breakpoint: 1024,
