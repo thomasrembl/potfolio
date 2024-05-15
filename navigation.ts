@@ -20,7 +20,7 @@ import {
     'https://www.behance.net/thomasremblier': 'https://www.behance.net/thomasremblier',
     'https://www.linkedin.com/in/thomas-remblier-a9805a220/': 'https://www.linkedin.com/in/thomas-remblier-a9805a220/',
     'https://github.com/thomasrembl': 'https://github.com/thomasrembl',
-    'https://www.instagram.com/thomas_rembl/': 'https://www.instagram.com/thomas_rembl/',
+    'https://www.instagram.com/remblier.psd/': 'https://www.instagram.com/remblier.psd/',
    
 
   } satisfies Pathnames<typeof locales>;

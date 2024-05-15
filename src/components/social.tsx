@@ -21,7 +21,7 @@ const Social = ({ size }: SocialProps) => {
       <Link href="https://github.com/thomasrembl" target="_blank">
         <Image src="/github.svg" alt="github" width={size} height={size} />
       </Link>
-      <Link href="https://www.instagram.com/thomas_rembl/" target="_blank">
+      <Link href="https://www.instagram.com/remblier.psd/" target="_blank">
         <Image
           src="/instagram.svg"
           alt="instagram"

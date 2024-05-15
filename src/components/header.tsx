@@ -38,7 +38,7 @@ const Header = () => {
               <Image src="/github.svg" alt="github" width={24} height={24} />
             </Link>
             <Link
-              href="https://www.instagram.com/thomas_rembl/"
+              href="https://www.instagram.com/remblier.psd/"
               target="_blank"
             >
               <Image
