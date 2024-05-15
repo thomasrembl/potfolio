@@ -8,7 +8,7 @@ const Scene = () => {
       <Canvas>
         <OrbitControls enableZoom={false} />
         <directionalLight intensity={1000} />
-        <Environment files="/hdr/studio.hdr" />
+        <Environment preset="sunset" />
         <Model />
       </Canvas>
     </div>

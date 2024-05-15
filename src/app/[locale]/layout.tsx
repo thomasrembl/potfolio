@@ -58,7 +58,7 @@ export default function LocaleLayout({
         <title>Thomas Remblier | Portfolio</title>
       </head>
       <body>
-        <SmoothScrolling>{children}</SmoothScrolling>
+        {children}
         <SpeedInsights />
         <Analytics />
         <Footer />

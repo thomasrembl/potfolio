@@ -69,7 +69,7 @@ const ToolBox = () => {
     },
     {
       id: 13,
-      cover: "/tools/Photoshop.png",
+      cover: "/tools/PhotoShop.png",
       alt: "Photoshop Logo",
     },
     {
@@ -91,15 +91,15 @@ const ToolBox = () => {
 
   const settings = {
     dots: false,
-    swipe: false,
-    draggable: false,
+    swipe: true,
+    draggable: true,
     arrows: false,
     infinite: true,
     slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 200,
-    autoplayspeed: 10,
+    speed: 500,
+    autoplayspeed: 1000,
     responsive: [
       {
         breakpoint: 1024,
