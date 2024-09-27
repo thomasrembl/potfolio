@@ -8,7 +8,7 @@
     },
     "Footer":{
       "title": "2024 Thomas Remblier. Tout droits réservé",
-      "pied":"Dernière Mise à Jour le : 15/05/2024 ",
+      "pied":"Dernière Mise à Jour le : 27/09/2024 ",
       "CV" : "Mon CV"
     },
     "Header":{
@@ -67,8 +67,14 @@
     "projet3": {
       "title": "Y | Réseux social ",
       "main": "Projet personnel 2023",
-      "informationText": "Ce projet a été réalisé dans le cadre de mes études en 2023. Réalisé avec Figma, il a été conçu pour une application de gestion de réseaux sociaux.",
-      "descriptionText": "Y est une application de gestion de réseaux sociaux qui permet aux utilisateurs de gérer et de planifier leurs publications sur plusieurs plateformes. Avec Y, vous pouvez organiser votre contenu, suivre vos performances et interagir avec votre public, le tout depuis une seule application. Y est conçu pour les créateurs de contenu, les influenceurs et les professionnels du marketing qui cherchent à optimiser leur présence en ligne."
+      "informationText": "Ce projet est une réplique de Twitter visant à apprendre à réaliser un projet MERN.",
+      "descriptionText": "Y est un projet personnel visant à apprendre à réaliser une application fullstack avec React, Node.js et MongoDB. Y est une copie de X (anciennement Twitter) qui permet de poster des messages, des photos et des vidéos, de les liker et de suivre des comptes. Le projet Y est terminé, mais la base de données a expiré."
+      },
+    "projet4": {
+      "title": "McLaren | Annonce livrée ",
+      "main": "Projet scolaire 2024",
+      "informationText": "J'ai réalisé ce projet avec Blender pour la 3D, Substance Painter pour les textures et Premiere Pro pour le montage.",
+      "descriptionText": "Cette vidéo est une vidéo de présentation de la livrée de F1 de mon équipe favorite : McLaren. Le but de cette vidéo est de montrer le design de la nouvelle voiture pour la saison. La vidéo se veut pesante, retraçant des moments marquants de la précédente course. Tous les plans sont réalisés et animés sur Blender."
       }
     
   }

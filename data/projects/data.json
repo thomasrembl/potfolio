@@ -54,6 +54,31 @@
       }
     ],
     "images": false
+  },
+  {
+    "id": 3,
+    "slug": "mclaren",
+    "projectData": "projet4",
+    "imgCover" : "mclaren.png",
+    "link":true,
+    "linkUrl":[
+      {
+        "id": 0,
+        "name" : "La vidéo",
+        "url": "https://youtu.be/cytneKxkGLo"
+      }
+    ],
+    "images": true,
+    "imagesUrl": [
+      {
+        "id": 0,
+        "src": "mclaren-car.png"
+      },
+      {
+        "id": 1,
+        "src": "mclaren-helmet.png"
+      }
+    ]
   }
 
   ]
