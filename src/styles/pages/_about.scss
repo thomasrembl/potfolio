@@ -13,9 +13,7 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
-        h1{
-            filter: drop-shadow(0 0 40px $white) ;
-        }
+
 
     }
     .about{
@@ -44,7 +42,6 @@
             flex-basis: 49%;
             p{
                 text-align: justify;
-                filter: drop-shadow(0 0 10px $lynch-700) drop-shadow(0 0 0px $lynch-700) drop-shadow(0 0 30px $lynch-700);
             }
 
         
@@ -75,9 +72,7 @@
         flex-direction: column;
         align-items: center;
         gap: 150px;
-        h2{
-            filter: drop-shadow(0 0 10px $white)  drop-shadow(0 0 50px $white);
-        }
+
         .job-container{
             display: flex;
             flex-direction: column;

@@ -15,9 +15,11 @@ const ProjectThread = () => {
   const jsonData = fs.readFileSync(filePath, "utf-8");
   const data = JSON.parse(jsonData);
 
+  const reversedData = [...data].reverse();
+
   return (
     <>
-      {data.map((item: ProjectData) => (
+      {reversedData.map((item: ProjectData) => (
         <Link
           href={{
             pathname: "/project/[...slug]",

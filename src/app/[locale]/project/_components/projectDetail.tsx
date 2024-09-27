@@ -10,7 +10,8 @@ interface ProjectData {
     imgCover: string;
     link: boolean;
     linkUrl: [];
-    images: [];
+    images: boolean;
+    imagesUrl: [];
   };
 }
 const ProjectDetail = ({ project }: ProjectData) => {
@@ -20,8 +21,11 @@ const ProjectDetail = ({ project }: ProjectData) => {
   const imgPath = `/projects/${project.imgCover}`;
   return (
     <section className="project-detail">
-      <div id="drop-lt" className="project-title">
-        <h1 id="h1">{t("title")}</h1>
+      <div className="project-title">
+        <div className="underline">
+          <h1 id="h1">{t("title")}</h1>
+          <div className="rectangle"></div>
+        </div>
         <p id="bt">{t("main")}</p>
       </div>
       <div className="project-img">
@@ -29,14 +33,14 @@ const ProjectDetail = ({ project }: ProjectData) => {
       </div>
       <div className="project-text">
         <div className="left-content">
-          <div id="drop-lt" className="lt-title">
+          <div className="lt-title">
             <div className="circle"></div>
             <h3 id="bt">{b("informationTitle")}</h3>
           </div>
           <p id="base">{t("informationText")}</p>
         </div>
         <div className="right-content">
-          <div id="drop-lt" className="lt-title">
+          <div className="lt-title">
             <div className="circle"></div>
             <h3 id="bt">{b("descriptionTitle")}</h3>
           </div>
@@ -45,20 +49,22 @@ const ProjectDetail = ({ project }: ProjectData) => {
       </div>
       {project.link && (
         <div className="project-link">
-          <div id="drop-lt" className="lt-title">
+          <div className="lt-title">
             <div className="circle"></div>
             <h2 id="bt">{b("linkTitle")}</h2>
           </div>
           <LinkThread linksData={project.linkUrl} />
         </div>
       )}
-      <div className="project-thread">
-        <div id="drop-lt" className="lt-title">
-          <div className="circle"></div>
-          <h2 id="h2">{b("imageTitle")}</h2>
+      {project.images && (
+        <div className="project-thread">
+          <div className="lt-title">
+            <div className="circle"></div>
+            <h2 id="h2">{b("imageTitle")}</h2>
+          </div>
+          <ImageThread imgsData={project.imagesUrl} />
         </div>
-        <ImageThread imgsData={project.images} />
-      </div>
+      )}
     </section>
   );
 };

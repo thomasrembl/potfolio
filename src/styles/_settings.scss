@@ -65,6 +65,29 @@ svg{
     }
 }
 
+.underline{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    h1,h2{
+        z-index: 30;
+    }
+    .rectangle{
+        width: 100%;
+        height: 15px;
+        background-color: $lynch-700;
+        transform: translateY(-20px);
+        z-index: 29;
+    }
+    .rectangle-lt{
+        width: 100%;
+        height: 10px;
+        background-color: $lynch-700;
+        transform: translateY(-15px);
+        z-index: 29;
+    }
+}
+
 @media screen and (max-width: 780px){
     #bt{
         font-size: $sm;
@@ -77,6 +100,15 @@ svg{
     }
     #base{
         font-size: $sm;
+    }
+
+    .rectangle{
+        transform: translateY(-10px) !important;
+        height: 10px !important;
+    }
+    .rectangle-lt{
+        transform: translateY(-5px) !important;
+        height: 5px !important;
     }
 
 }

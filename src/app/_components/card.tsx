@@ -8,6 +8,7 @@ interface CardProps {
 
 const Card = ({ table, cover }: CardProps) => {
   const t = useTranslations(table);
+  const g = useTranslations("projectBase");
   const coverPath = `/projects/${cover}`;
   return (
     <div className="card">
@@ -26,8 +27,7 @@ const Card = ({ table, cover }: CardProps) => {
           </div>
           <div className="project-info">
             <p>
-              {t("main")} -{" "}
-              <span className="description">{t("description")}</span>
+              {t("main")} - <span className="description">{g("link")}</span>
             </p>
           </div>
         </div>

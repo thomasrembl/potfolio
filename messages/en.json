@@ -28,41 +28,46 @@
       "title": "SCJ Informatique",
       "date": "sept. 2023 - now",
       "poste": "Web Designer alternate",
-      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+      "description":"Currently in a work-study program at SCJ Informatique, I am responsible for creating mockups and visual communication materials. I have also had the opportunity to work on development projects.",
       "id":"left"
     },
     "job2": {
       "title": "MS Conseil Normandie",
       "date": "avr. 2023 - juil. 2023",
       "poste": "Communication officer in internship",
-      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+      "description":"To complete my first year, I did my internship at MS Conseil Normandie. I worked on the company's graphic redesign and the creation of visuals.",
       "id":"right"
     },
     "job3": {
       "title": "E.Leclerc",
       "date": "avr. 2023 - juin 2023",
       "poste": "Order picker",
-      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+      "description":"During my internship at MS Conseil Normandie, I had the opportunity to work at the E.Leclerc drive in my town. This was my first professional experience.",
       "id":"left"
     },
     "projectBase":{
       "informationTitle": "Informations",
       "descriptionTitle": "Description",
       "imageTitle": "More Pricture",
-      "linkTitle": "Links"
+      "linkTitle": "Links",
+      "link": "Know more"
     },
     "projet1": {
-      "title": "Développeur Web",
-      "main": "Corporation 2023",
-      "description": "Know more",
-      "informationText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet ",
-      "descriptionText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet "
+      "title": "Website Mockup Legandary Motors",
+      "main": "School 2024",
+      "informationText": "This prototype was created as part of my studies in 2024. Made with Figma, it was designed for a vintage car sales website inspired by the game GTA V. ",
+      "descriptionText": "Légendary Motors is a company specializing in the sale of luxury vehicles, renowned for its commitment to excellence and elegance. Founded on a passion for exceptional automobiles, Légendary Motors offers an exclusive selection of prestigious cars that combine cutting-edge performance, refined design, and quality craftsmanship. Each vehicle available at Légendary Motors embodies the essence of modern luxury, providing customers with a personalized and highly satisfying purchasing experience."
     },
     "projet2": {
-      "title": "Développeur Web",
-      "main": "Personnal 2024",
-      "description": "Know more",
-      "informationText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet ",
-      "descriptionText": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet "
+      "title": "Website Mockup Diva Pasta",
+      "main": "School 2024",
+      "informationText": "This prototype was created as part of my studies in 2024. Made with Figma, it was designed for a tasting italian restaurant  website.",
+      "descriptionText": "Diva Pasta is a high-end Italian restaurant, renowned for its elegant ambiance and culinary excellence. Situated in the heart of the city, Diva Pasta provides an unparalleled gastronomic experience where traditional Italian cuisine meets modern innovation. Our menu is a symphony of authentic flavors and contemporary creations, crafted with fresh, top-quality ingredients."
+    },
+    "projet3": {
+      "title": "Y Social Platform",
+      "main": "Personnal project 2024",
+      "informationText": "This prototype was created as part of my studies in 2024. Made with Figma, it was designed for a plant shop website.",
+      "descriptionText": "The Green House is a plant shop that offers a wide selection of indoor and outdoor plants, as well as gardening supplies and accessories. Our mission is to provide customers with the tools and knowledge they need to create their own green oasis at home. At The Green House, we believe that plants have the power to transform any space into a peaceful and harmonious environment, and we are dedicated to helping our customers bring nature indoors."
     }
   }

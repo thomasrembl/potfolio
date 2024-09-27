@@ -1,11 +1,10 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { TailSpin } from "react-loader-spinner";
 import Icon from "@/components/icon";
 import { motion, useAnimation } from "framer-motion";
 import { X } from "lucide-react";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 
 interface HeroSectionProps {
@@ -40,20 +39,27 @@ const HeroSection = ({ btn }: HeroSectionProps) => {
       opacity: 1,
       transition: { type: "spring", stiffness: 200, damping: 20 },
     });
+
+    // Animer la boîte pour la faire remonter après 8 secondes
+    const timer = setTimeout(() => {
+      controls.start({ y: -100, opacity: 0 });
+    }, 8000);
+
+    // Nettoyage du timer lors du démontage du composant
+    return () => clearTimeout(timer);
   }, [controls]);
 
   const handleClick = () => {
     // Animer la boîte pour la faire remonter quand on clique sur la croix
     controls.start({ y: -100, opacity: 0 });
   };
+
   const toggleAnimation = () => {
     setIsAnimation(false);
     handleClick();
     console.log(isAnimation);
   };
-  setTimeout(() => {
-    handleClick();
-  }, 8000);
+
   return (
     <section className="hero-section">
       <motion.div
@@ -77,7 +83,7 @@ const HeroSection = ({ btn }: HeroSectionProps) => {
         ) : (
           <div className="img-container">
             <Image
-              src="/medias/logo3d.png"
+              src="/logo-lt.png"
               alt="Logo 3D"
               width={1920}
               height={1080}

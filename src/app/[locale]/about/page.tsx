@@ -16,11 +16,14 @@ const About = () => {
         </Link>
       </div>
       <div className="title">
-        <div id="drop-lt" className="lt-title">
+        <div className="lt-title">
           <div className="circle"></div>
           <h3 id="bt">{t("ltTitle")}</h3>
         </div>
-        <h1 id="h1">{t("title")}</h1>
+        <div className="underline">
+          <h1 id="h1">{t("title")}</h1>
+          <div className="rectangle"></div>
+        </div>
       </div>
       <div className="about">
         <div className="img-container">
@@ -31,7 +34,7 @@ const About = () => {
         </div>
       </div>
       <div className="social">
-        <div id="drop-lt" className="lt-title">
+        <div className="lt-title">
           <div className="circle"></div>
           <h3 id="bt">{t("reseau")}</h3>
         </div>
@@ -43,7 +46,7 @@ const About = () => {
         </span>
       </div>
       <div className="toolbox">
-        <div id="drop-lt" className="lt-title">
+        <div className="lt-title">
           <div className="circle"></div>
           <h3 id="bt">{t("boite")}</h3>
         </div>
@@ -52,7 +55,10 @@ const About = () => {
         </div>
       </div>
       <div className="experience">
-        <h2 id="h2">{t("title2")}</h2>
+        <div className="underline">
+          <h2 id="h2">{t("title2")}</h2>
+          <div className="rectangle-lt"></div>
+        </div>
         <div className="job-container">
           <JobThread />
         </div>
