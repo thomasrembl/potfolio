@@ -5,6 +5,8 @@
     background-color: $white-900;
     border-radius: $xl-2-border-radius;
     gap: 100px;
+    width: fit-content;
+    align-self: center;
     .project-title{
         display: flex;
         flex-direction: column;
