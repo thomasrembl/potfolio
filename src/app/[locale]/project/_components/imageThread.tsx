@@ -1,27 +1,14 @@
-import Image from "next/image";
-
-interface ImageData {
-  id: number;
-  src: string;
-}
+import { ImageUrlProps } from "@/types/project";
 
 interface ImageThreadProps {
-  imgsData: ImageData[];
+  imgsData: ImageUrlProps[];
 }
 
 const ImageThread = ({ imgsData }: ImageThreadProps) => {
-  const imgPath = "/projects/";
   return (
     <div className="img-thread">
-      {imgsData.map((item: ImageData) => (
-        <div className="img-container" key={item.id}>
-          <Image
-            src={`${imgPath}${item.src}`}
-            alt="image"
-            width={1920}
-            height={1080}
-          />
-        </div>
+      {imgsData.map((item: ImageUrlProps) => (
+        <div className="img-container" key={item.textId}></div>
       ))}
     </div>
   );

@@ -1,15 +1,21 @@
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+
+import { useActiveLocale } from "@/utils/getTraduction";
+import { getProjetById } from "@/actions/get-project";
 
 interface CardProps {
-  table: string;
-  cover: string;
+  id: string;
 }
 
-const Card = ({ table, cover }: CardProps) => {
-  const t = useTranslations(table);
-  const g = useTranslations("projectBase");
-  const coverPath = `/projects/${cover}`;
+const Card = async ({ id }: CardProps) => {
+  const data = await getProjetById(id);
+  const activeLocale = useActiveLocale();
+  const linkText = {
+    en: " Read more",
+    fr: " En savoir plus",
+  };
+  const link = linkText[activeLocale];
+
   return (
     <div className="card">
       <div className="elipse">
@@ -23,16 +29,22 @@ const Card = ({ table, cover }: CardProps) => {
       <div className="content">
         <div className="top-content">
           <div className="project-title">
-            <h2>{t("title")}</h2>
+            <h2>{data.translation[activeLocale]?.title}</h2>
           </div>
           <div className="project-info">
             <p>
-              {t("main")} - <span className="description">{g("link")}</span>
+              {data.translation[activeLocale]?.category} -
+              <span className="description">{link}</span>
             </p>
           </div>
         </div>
         <div className="img-container">
-          <Image src={coverPath} alt="project" width={800} height={800} />
+          <Image
+            src={data.imgCover}
+            alt="projectCover"
+            width={800}
+            height={800}
+          />
         </div>
       </div>
     </div>

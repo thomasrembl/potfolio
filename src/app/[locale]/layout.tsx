@@ -60,7 +60,7 @@ export default function LocaleLayout({
         {children}
         <SpeedInsights />
         <Analytics />
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

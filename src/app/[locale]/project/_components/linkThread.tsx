@@ -1,22 +1,17 @@
+import { LinkUrlProps } from "@/types/project";
 import { LinkIcon } from "lucide-react";
 import Link from "next/link";
 
-interface LinkData {
-  id: number;
-  name: string;
-  url: string;
-}
-
 interface LinkThreadProps {
-  linksData: LinkData[];
+  linksData: LinkUrlProps[];
 }
 
 const LinkThread = ({ linksData }: LinkThreadProps) => {
   return (
     <>
       <div className="link-thread">
-        {linksData.map((item: LinkData) => (
-          <div className="link-container" key={item.id}>
+        {linksData.map((item: LinkUrlProps) => (
+          <div className="link-container" key={item._id}>
             <LinkIcon size={18} color="white" />
             <Link href={item.url} target="_blanck">
               <p> {item.name}</p>
