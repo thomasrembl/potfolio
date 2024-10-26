@@ -6,7 +6,7 @@ import Icon from "@/components/icon";
 import { motion, useAnimation } from "framer-motion";
 import { X } from "lucide-react";
 import Image from "next/image";
-
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 interface HeroSectionProps {
   btn: string;
 }
@@ -91,16 +91,22 @@ const HeroSection = ({ btn }: HeroSectionProps) => {
           </div>
         )}
       </div>
+
       <div className="bottom-content">
         <div className="btn">
-          <p
+          <div
             id="h2"
             onClick={() => {
               ref.current?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            {btn}
-          </p>
+            <DotLottieReact
+              className="lottie"
+              src="https://lottie.host/f5128a87-d051-4584-8d61-5a817a0b12c0/man5jbjA0s.json"
+              loop
+              autoplay
+            />
+          </div>
         </div>
       </div>
       <div ref={ref}></div>

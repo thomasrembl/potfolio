@@ -3,47 +3,19 @@
       "description":"Welcome on my portfolio, I'm Thomas Remblier, a web designer and developer. Here you can find my projects, my experiences and my skills.",
       "ogDescription":" Welcome on my portfolio, I'm Thomas Remblier. Here you can find my projects."
     },
+    "Base": {
+      "btn" : "Back"
+    },
     "Index": {
       "title": "Discover"
     },
     "Footer":{
       "title": "2024 Thomas Remblier. All right reserved.",
-      "pied":"Last Update : 27/09/2024 ",
       "CV" : "My CV"
       
     },
     "Header":{
       "text":"Languages"
-    },
-    "About": {
-      "btn": "Return",
-      "ltTitle": "Who am I ?",
-      "title": "Want to get to know me ?",
-      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
-      "reseau": "My social networks",
-      "boite": "My toolbox",
-      "title2": "My experience"
-    },
-    "job1": {
-      "title": "SCJ Informatique",
-      "date": "sept. 2023 - now",
-      "poste": "Web Designer alternate",
-      "description":"Currently in a work-study program at SCJ Informatique, I am responsible for creating mockups and visual communication materials. I have also had the opportunity to work on development projects.",
-      "id":"left"
-    },
-    "job2": {
-      "title": "MS Conseil Normandie",
-      "date": "avr. 2023 - juil. 2023",
-      "poste": "Communication officer in internship",
-      "description":"To complete my first year, I did my internship at MS Conseil Normandie. I worked on the company's graphic redesign and the creation of visuals.",
-      "id":"right"
-    },
-    "job3": {
-      "title": "E.Leclerc",
-      "date": "avr. 2023 - juin 2023",
-      "poste": "Order picker",
-      "description":"During my internship at MS Conseil Normandie, I had the opportunity to work at the E.Leclerc drive in my town. This was my first professional experience.",
-      "id":"left"
     },
     "projectBase":{
       "informationTitle": "Informations",
@@ -51,29 +23,5 @@
       "imageTitle": "More Pricture",
       "linkTitle": "Links",
       "link": "Know more"
-    },
-    "projet1": {
-      "title": "Website Mockup Legandary Motors",
-      "main": "School 2024",
-      "informationText": "This prototype was created as part of my studies in 2024. Made with Figma, it was designed for a vintage car sales website inspired by the game GTA V. ",
-      "descriptionText": "Légendary Motors is a company specializing in the sale of luxury vehicles, renowned for its commitment to excellence and elegance. Founded on a passion for exceptional automobiles, Légendary Motors offers an exclusive selection of prestigious cars that combine cutting-edge performance, refined design, and quality craftsmanship. Each vehicle available at Légendary Motors embodies the essence of modern luxury, providing customers with a personalized and highly satisfying purchasing experience."
-    },
-    "projet2": {
-      "title": "Website Mockup Diva Pasta",
-      "main": "School 2024",
-      "informationText": "This prototype was created as part of my studies in 2024. Made with Figma, it was designed for a tasting italian restaurant  website.",
-      "descriptionText": "Diva Pasta is a high-end Italian restaurant, renowned for its elegant ambiance and culinary excellence. Situated in the heart of the city, Diva Pasta provides an unparalleled gastronomic experience where traditional Italian cuisine meets modern innovation. Our menu is a symphony of authentic flavors and contemporary creations, crafted with fresh, top-quality ingredients."
-    },
-    "projet3": {
-      "title": "Y Social Platform",
-      "main": "Personnal project 2023",
-      "informationText": "This project is a replica of Twitter aimed at learning how to build a MERN project.",
-      "descriptionText": "Y is a personal project aimed at learning how to build a fullstack application with React, Node.js, and MongoDB. Y is a copy of X (formerly Twitter) that allows users to post messages, photos, and videos, like them, and follow accounts. The Y project is completed, but the database has expired."
-    },
-    "projet4": {
-      "title": "McLaren | Livrery reveal",
-      "main": "School Project 2024",
-      "informationText": "I created this project using Blender for 3D, Substance Painter for the textures, and Premiere Pro for editing.",
-      "descriptionText": "This video is a presentation of the F1 livery of my favorite team: McLaren. The goal of this video is to showcase the design of the new car for the season. The video is meant to be heavy, retracing key moments from the previous race. All the shots were created and animated in Blender."
     }
   }

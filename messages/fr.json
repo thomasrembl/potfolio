@@ -3,46 +3,18 @@
       "description":"Bienvenue sur le portfolio de Thomas remblier, je suis web designer développeur web et je fais de la 3D. Découvrez mes projets et mon parcours.",
       "ogDescription":"Bienvenue sur le portfolio de Thomas remblier, découvrez mes projets et mon parcours."
     },
+    "Base": {
+      "btn" : "Retour"
+    },
     "Index": {
       "title": "Découvrir"
     },
     "Footer":{
       "title": "2024 Thomas Remblier. Tout droits réservé",
-      "pied":"Dernière Mise à Jour le : 27/09/2024 ",
       "CV" : "Mon CV"
     },
     "Header":{
       "text":"Langues"
-    },
-    "About": {
-      "btn": "Retour",
-      "ltTitle": "Qui-suis-je ?",
-      "title": "Vous voulez apprendre à me connaitre ?",
-      "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque.Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
-      "reseau": "Mes Réseaux",
-      "boite": "Ma boite à outils",
-      "title2": "Mon expérience"
-    },
-    "job1": {
-      "title": "SCJ Informatique",
-      "date": "sept. 2023 - aujourd’hui",
-      "poste": "Web Designer en alternance",
-      "description":"Actuellement en alternance chez SCJ Informatique, je suis en charge de la création de maquettes et supports visuels de communication. J'ai également eu l'occasion de travailler sur des projets de développement.",
-      "id":"left"
-    },
-    "job2": {
-      "title": "MS Conseil Normandie",
-      "date": "avr. 2023 - juil. 2023",
-      "poste": "Chargé de communication en stage",
-      "description":"Afin de valider ma première année j'ai effectué mon stage chez MS Conseil Normandie. J'ai pu travailler sur la refonte graphique de l'entreprise et sur la création de visuels.",
-      "id":"right"
-    },
-    "job3": {
-      "title": "E.Leclerc",
-      "date": "avr. 2023 - juin 2023",
-      "poste": "Préparateur de commandes",
-      "description":"Pendant mon stage chez MS Conseil Normandie, j'ai eu l'occasion de travailler dans le E.Leclerc drive de ma ville. Cela à été ma première expérience professionnelle.",
-      "id":"left"
     },
     "projectBase":{
       "informationTitle": "Informations",
@@ -50,31 +22,5 @@
       "imageTitle": "Plus d'images",
       "linkTitle": "Liens",
       "link": "En savoir plus"
-    },
-    "projet1": {
-      "title": "Maquette Legandary Motors",
-      "main": "École 2024",
-      "informationText": "Cette maquette a été réalisée dans le cadre de mes études en 2024. Réalisée avec Figma, elle a été conçue pour un site de vente de voitures de collection inspiré du jeu GTA V.",
-      "descriptionText": "Légendary Motors est une entreprise spécialisée dans la vente de véhicules de luxe, renommée pour son engagement envers l'excellence et l'élégance. Fondée sur la passion pour l'automobile d'exception, Légendary Motors propose une sélection exclusive de voitures de prestige, alliant performance de pointe, design raffiné et artisanat de qualité."
-      
-    },
-    "projet2": {
-      "title": "Maquette Diva Pasta",
-      "main": "École 2024",
-      "informationText": "Cette maquette a été réalisée dans le cadre de mes études en 2024. Réalisée avec Figma, elle a été conçue pour un site de restaurant italien haut de gamme.",
-      "descriptionText": "Diva Pasta est un restaurant italien haut de gamme, célèbre pour son ambiance élégante et son excellence culinaire. Niché au cœur de la ville, Diva Pasta offre une expérience gastronomique inégalée où la tradition italienne rencontre l'innovation moderne. Notre menu est une symphonie de saveurs authentiques et de créations contemporaines, préparées avec des ingrédients frais et de qualité supérieure."
-    },
-    "projet3": {
-      "title": "Y | Réseux social ",
-      "main": "Projet personnel 2023",
-      "informationText": "Ce projet est une réplique de Twitter visant à apprendre à réaliser un projet MERN.",
-      "descriptionText": "Y est un projet personnel visant à apprendre à réaliser une application fullstack avec React, Node.js et MongoDB. Y est une copie de X (anciennement Twitter) qui permet de poster des messages, des photos et des vidéos, de les liker et de suivre des comptes. Le projet Y est terminé, mais la base de données a expiré."
-      },
-    "projet4": {
-      "title": "McLaren | Annonce livrée ",
-      "main": "Projet scolaire 2024",
-      "informationText": "J'ai réalisé ce projet avec Blender pour la 3D, Substance Painter pour les textures et Premiere Pro pour le montage.",
-      "descriptionText": "Cette vidéo est une vidéo de présentation de la livrée de F1 de mon équipe favorite : McLaren. Le but de cette vidéo est de montrer le design de la nouvelle voiture pour la saison. La vidéo se veut pesante, retraçant des moments marquants de la précédente course. Tous les plans sont réalisés et animés sur Blender."
-      }
-    
+    }
   }

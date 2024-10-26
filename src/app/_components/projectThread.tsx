@@ -2,18 +2,17 @@ import fs from "fs";
 import path from "path";
 import Card from "./card";
 import { Link } from "../../../navigation";
+import { getAllProject } from "@/actions/get-all-project";
 
 interface ProjectData {
-  id: number;
-  projectData: string;
+  _id: string;
+  id: string;
   slug: string;
-  imgCover: string;
 }
 
-const ProjectThread = () => {
-  const filePath = path.join(process.cwd(), "./data/projects/data.json");
-  const jsonData = fs.readFileSync(filePath, "utf-8");
-  const data = JSON.parse(jsonData);
+const ProjectThread = async () => {
+  // const data = JSON.parse(jsonData);
+  const data = await getAllProject();
 
   const reversedData = [...data].reverse();
 
@@ -24,11 +23,11 @@ const ProjectThread = () => {
           href={{
             pathname: "/project/[...slug]",
             params: { slug: [item.slug] },
-            query: { id: item.id },
+            query: { id: item._id },
           }}
-          key={item.id}
+          key={item._id}
         >
-          <Card key={item.id} table={item.projectData} cover={item.imgCover} />
+          <Card id={item._id} />
         </Link>
       ))}
     </>

@@ -53,28 +53,12 @@ const Header = () => {
       </header>
       <div className="right-header">
         <LangueSwitcher />
-        <Link href="/about">
-          <Button
-            text="info"
-            icon={<ArrowUpRight />}
-            iconPosition="right"
-            type="ghost"
-          />
-        </Link>
       </div>
 
       <header className="mobile-header">
         <Image src="/logo-lt.png" alt="logo" width={34} height={58} />
         <div className="mobile-right">
           <LangueSwitcher />
-          <Link href="/about">
-            <Button
-              text="info"
-              icon={<ArrowUpRight />}
-              iconPosition="right"
-              type="ghost"
-            />
-          </Link>
         </div>
       </header>
     </>

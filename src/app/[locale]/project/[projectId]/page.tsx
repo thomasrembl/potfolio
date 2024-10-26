@@ -1,33 +1,17 @@
-import Button from "@/components/button";
 import ProjectDetail from "../_components/projectDetail";
-import { Link } from "../../../../../navigation";
-import { ArrowLeft } from "lucide-react";
-import ProjectsData from "../../../../../data/projects/data.json";
-import { useTranslations } from "next-intl";
+import { getProjetById } from "@/actions/get-project";
 
-const ProjectPage = ({ searchParams }: { searchParams: { id: number } }) => {
-  const t = useTranslations("About");
-  function getProjectData(projectsData: any[], searchParams: { id: number }) {
-    const wichProject = Number(searchParams.id);
-    const allProjects = Number(searchParams.id) + 1;
-
-    if (searchParams.id) {
-      if (projectsData.length >= allProjects) {
-        const project = projectsData[wichProject];
-        return project;
-      }
-    }
-  }
-
-  const projectData = getProjectData(ProjectsData, searchParams);
+const ProjectPage = async ({
+  searchParams,
+}: {
+  searchParams: { id: string };
+}) => {
+  const projectData = await getProjetById(searchParams.id);
 
   return (
-    <main className="project-page">
-      <Link href="/">
-        <Button text={t("btn")} iconPosition="left" icon={<ArrowLeft />} />
-      </Link>
+    <div>
       <ProjectDetail project={projectData} />
-    </main>
+    </div>
   );
 };
 
