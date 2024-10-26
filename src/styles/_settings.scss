@@ -64,6 +64,22 @@ svg{
         background-color: $white;
     }
 }
+.iframe-container{
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lottie{
+    height: 24px;
+    cursor: pointer;
+}
+.iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 .underline{
     display: flex;

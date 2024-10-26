@@ -31,7 +31,7 @@ const Footer = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/thomas_rembl/"
+              href="https://www.instagram.com/remblier.psd/"
               target="_blank"
             >
               <Button
@@ -41,20 +41,10 @@ const Footer = () => {
                 type="ghost"
               />
             </Link>
-            <Link href="#" target="_blank">
-              <Button
-                text={t("CV")}
-                icon={<ArrowUpRight />}
-                iconPosition="right"
-                type="ghost"
-              />
-            </Link>
           </div>
         </div>
       </div>
-      <div className="bottom-content">
-        <p className="bottom-text">{t("pied")}</p>
-      </div>
+      <div className="bottom-content"></div>
     </footer>
   );
 };

@@ -6,9 +6,7 @@ const ProjectPage = async ({
 }: {
   searchParams: { id: string };
 }) => {
-  console.log("search ", searchParams);
   const projectData = await getProjetById(searchParams.id);
-  console.log(projectData);
 
   return (
     <div>

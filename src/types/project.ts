@@ -1,7 +1,7 @@
 export interface TranslationProps {
   category: string;
   descriptionText: string;
-  imageText: string[];
+  imageText: { text: string; id: string }[];
   informationText: string;
   title: string;
 }
