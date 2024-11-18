@@ -103,6 +103,28 @@ svg{
         z-index: 29;
     }
 }
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.modal-content{
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    cursor: zoom-out;
+    
+}
+
 
 @media screen and (max-width: 780px){
     #bt{
