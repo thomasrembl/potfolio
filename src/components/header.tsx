@@ -16,6 +16,9 @@ const Header = () => {
         <div className="left-content">
           <Image src="/logo-creux.png" alt="logo" width={40} height={68} />
           <nav>
+            <Link href="https://www.youtube.com/@remblier" target="_blank">
+              <Image src="/youtube.svg" alt="youtube" width={24} height={24} />
+            </Link>
             <Link href="https://www.behance.net/thomasremblier" target="_blank">
               <Image src="/behance.svg" alt="behance" width={24} height={24} />
             </Link>
