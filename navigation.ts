@@ -21,6 +21,7 @@ import {
     'https://www.linkedin.com/in/thomas-remblier-a9805a220/': 'https://www.linkedin.com/in/thomas-remblier-a9805a220/',
     'https://github.com/thomasrembl': 'https://github.com/thomasrembl',
     'https://www.instagram.com/remblier.psd/': 'https://www.instagram.com/remblier.psd/',
+    'https://www.youtube.com/@remblier': 'https://www.youtube.com/@remblier',
    
 
   } satisfies Pathnames<typeof locales>;

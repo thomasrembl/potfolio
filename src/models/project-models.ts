@@ -5,6 +5,11 @@ const Schema = mongoose.Schema;
 const ProjectSchema = new Schema({
   slug: { type: String, required: true }, 
   imgCover: { type: String, required: true }, 
+  filer: [
+    {
+        filterName: {type : String, default:""}
+    }
+  ],
   linkUrl: [
       {
           name: { type: String },

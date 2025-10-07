@@ -1,22 +1,24 @@
 "use client";
 import Image from "next/image";
-
-import Button from "./button";
-import { ArrowUpRight } from "lucide-react";
-import { useRouter } from "next/router";
-import { useEffect } from "react";
 import { Link } from "@/../navigation";
 import LangueSwitcher from "../app/_components/langueSwitcher";
+import Showreel from "@/app/_components/showreel";
 
 const Header = () => {
   // Exécutez l'effet chaque fois que l'URL de la page change
 
   return (
     <>
+      <aside className="showreel-container">
+        <Showreel />
+      </aside>
       <header className=" big-header">
         <div className="left-content">
           <Image src="/logo-creux.png" alt="logo" width={40} height={68} />
           <nav>
+            <Link href="https://www.youtube.com/@remblier" target="_blank">
+              <Image src="/youtube.svg" alt="youtube" width={24} height={24} />
+            </Link>
             <Link href="https://www.behance.net/thomasremblier" target="_blank">
               <Image src="/behance.svg" alt="behance" width={24} height={24} />
             </Link>
@@ -58,6 +60,7 @@ const Header = () => {
       <header className="mobile-header">
         <Image src="/logo-lt.png" alt="logo" width={34} height={58} />
         <div className="mobile-right">
+          <Showreel />
           <LangueSwitcher />
         </div>
       </header>
