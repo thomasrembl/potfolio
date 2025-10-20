@@ -49,9 +49,9 @@ const TypeVisualyzer = ({ url, alt, text }: TypeVisualyzerProps) => {
                 <Image
                   src={url}
                   alt={alt}
-                  width={1920}
-                  height={1080}
                   onClick={openModal}
+                  width={700}
+                  height={700}
                   style={{ cursor: "pointer" }}
                 />
 

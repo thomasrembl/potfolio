@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const ProjectSchema = new Schema({
+  order: { type: Number, required: true },
   slug: { type: String, required: true }, 
   imgCover: { type: String, required: true }, 
   filer: [

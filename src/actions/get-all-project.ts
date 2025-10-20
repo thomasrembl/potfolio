@@ -1,17 +1,15 @@
-import connectDB from "@/config/database"; // Assurez-vous que le chemin est correct
-import ProjectSchema from "@/models/project-models"; // Importez votre modèle de projet
+import connectDB from "@/config/database";
+import ProjectSchema from "@/models/project-models";
 
 export const getAllProject = async (): Promise<any[]> => {
-    try {
-        await connectDB();
-        
-        // Essaie de récupérer tous les projets sans filtre
-        const courses = await ProjectSchema.find();
+  try {
+    await connectDB();
 
-        return courses;
-    } catch (error) {
-        console.error('[GET_COURSES_ERROR]', error);
-        return [];
-    }
+    const courses = await ProjectSchema.find().sort({ order: 1 });
+
+    return courses;
+  } catch (error) {
+    console.error("[GET_COURSES_ERROR]", error);
+    return [];
+  }
 };
-
