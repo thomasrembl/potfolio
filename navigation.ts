@@ -15,6 +15,7 @@ import {
     '/#projects-ancor': '/#projects-ancor',
     '/about': '/about',
     "#": "#",
+    '/bande-demo': '/bande-demo',
     '/project/[...slug]': '/project/[...slug]',
     'https://twitter.com/Kc_Thomaaas': 'https://twitter.com/Kc_Thomaaas',
     'https://www.behance.net/thomasremblier': 'https://www.behance.net/thomasremblier',

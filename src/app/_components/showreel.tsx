@@ -1,9 +1,9 @@
-import Link from "next/link";
 import React from "react";
+import { Link } from "../../../navigation";
 
 const Showreel = () => {
   return (
-    <Link href={"https://www.youtube.com/watch?v=xAn646hZP3s"} target="_blank">
+    <Link href={{ pathname: "/bande-demo" }}>
       <p className="showreelBtn">Showreel</p>
     </Link>
   );

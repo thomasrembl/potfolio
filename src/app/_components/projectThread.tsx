@@ -1,5 +1,3 @@
-import fs from "fs";
-import path from "path";
 import Card from "./card";
 import { Link } from "../../../navigation";
 import { getAllProject } from "@/actions/get-all-project";
