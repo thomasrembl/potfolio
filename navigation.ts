@@ -23,6 +23,7 @@ import {
     'https://github.com/thomasrembl': 'https://github.com/thomasrembl',
     'https://www.instagram.com/remblier.psd/': 'https://www.instagram.com/remblier.psd/',
     'https://www.youtube.com/@remblier': 'https://www.youtube.com/@remblier',
+    'https://www.artstation.com/thomaaas': 'https://www.artstation.com/thomaaas',
    
 
   } satisfies Pathnames<typeof locales>;

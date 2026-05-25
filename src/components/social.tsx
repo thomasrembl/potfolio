@@ -6,8 +6,13 @@ interface SocialProps {
 const Social = ({ size }: SocialProps) => {
   return (
     <div className="social-link">
-      <Link href="https://www.behance.net/thomasremblier" target="_blank">
-        <Image src="/behance.svg" alt="behance" width={size} height={size} />
+      <Link href="https://www.artstation.com/thomaaas" target="_blank">
+        <Image
+          src="/artstation.svg"
+          alt="artstation"
+          width={size}
+          height={size}
+        />
       </Link>
       <Link href="https://twitter.com/Kc_Thomaaas" target="_blank">
         <Image src="/twitter.svg" alt="twitter" width={size} height={size} />

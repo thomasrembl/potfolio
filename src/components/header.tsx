@@ -19,8 +19,13 @@ const Header = () => {
             <Link href="https://www.youtube.com/@remblier" target="_blank">
               <Image src="/youtube.svg" alt="youtube" width={24} height={24} />
             </Link>
-            <Link href="https://www.behance.net/thomasremblier" target="_blank">
-              <Image src="/behance.svg" alt="behance" width={24} height={24} />
+            <Link href="https://www.artstation.com/thomaaas" target="_blank">
+              <Image
+                src="/artstation.svg"
+                alt="artstation"
+                width={24}
+                height={24}
+              />
             </Link>
             <Link href="https://twitter.com/Kc_Thomaaas" target="_blank">
               <Image src="/twitter.svg" alt="twitter" width={24} height={24} />
